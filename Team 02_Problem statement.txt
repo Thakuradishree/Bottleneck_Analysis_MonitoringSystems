@@ -1,0 +1,89 @@
+
+Performance Engineering Al Assistant for Application Load Testing and Bottleneck Identification
+
+PROBLEM STATEMENT
+
+Performance engineering teams struggle to efficiently design and execute load testing scenarios that accurately reflect real user behaviors and identify system bottlenecks. Traditional load testing tools require manual configuration and lack intelligent scenario generation or adaptive analysis. This leads to incomplete testing coverage, late detection of performance issues, and costly production incidents. Teams also face challenges integrating load testing results with application monitoring and CI/CD pipelines. Without Al-driven assistance, performance testing remains time consuming, error-prone, and disconnected from development workflows, impacting software quality and user satisfaction.
+
+Data Considerations:
+
+Application telemetry and monitoring logs; historical user session and transaction data; load testing scripts and results; CI/CD pipeline metadata; volume varies based on application scale; quality considerations include completeness and timestamp accuracy; privacy compliance for user data: preprocessing includes session segmentation, anomaly labeling, and metric normalization; synthetic user behavior datasets for scenario simulation
+
+Consider using synthetic or anonymized data where appropriate. Ensure data quality and relevance to the problem context.
+
+SOLUTION EXPECTATIONS
+
+An AI powered assistant with a web interface that ingests application telemetry to generate adaptive load testing scenarios, execute test via integration with load testing tools, and analyze results to identify bottlenecks. Multiagent workflows orchestrate scenario generation, test orchestration, and performance analytics. The system includes dashboard showing real time metrics, anomaly alerts, and recommendations for optimization. Integration with CI/CD tools enables automated test runs. Success measured by test coverage, detection accuracy, and reduction in test preparation time. The prototype should demonstrate end-to-end load testing automation and insightful reporting An Al-powered assistant with a web interface that ingests application telemetry to generate adaptive load testing scenarios, execute tests via integration with load testing tools, and analyze results to identify bottlenecks. Multi-agent workflows orchestrate scenario generation, test orchestration, and performance analytics. The system includes dashboards showing real-time metrics, anomaly alerts, and recommendations for optimization, Integration with CICD
+
+Feel free to explore creative solutions that align with the problem context and objectives.
+
+Al Friday Season 2 - Problem Statements
+
+Use the following guidance as applicable to the selected use case.
+
+USER EXPERIENCE AND INTERFACE
+
+Design an intuitive, user-friendly interface aligned to the target workflow and user journey.
+
+Support personalized experiences through conversation, visualization, or a hybrid model, with the right context, tone, and flexibility.
+
+DATA ARCHITECTURE AND PROCESSING
+
+Ensure data quality, completeness, and appropriate preprocessing, including context-based retrieval where relevant.
+
+Use suitable storage for structured and unstructured data, ensuring consistency and cohesion across generated datasets.
+
+Apply data aggregation, correlation, and summarization techniques suited to the use case.
+
+CORE AI SOLUTION DESIGN
+
+Define a pragmatic short- to mid-term roadmap focused on achievable business outcomes.
+
+Balance Al autonomy with clear human oversight and intervention points.
+
+Incorporate adaptability through feedback loops and changing business requirements.
+
+Ensure outputs are grounded, referenced, context-aware, and relevant to the user need.
+
+Build guardrails to prevent sensitive data leakage, unsafe recommendations, or unsupported decision-making.
+
+Provide clear explanations of reasoning, assumptions, limitations, and confidence levels.
+
+Clearly separate the Al solution layer, enterprise knowledge and transactional systems, and third-party or public APIs, feeds, agents, and tools.
+
+TECHNICAL IMPLEMENTATION
+
+Design a modular, multi-tier architecture that supports scalability, maintainability, and future extension..
+
+Define memory, caching, and token-usage strategies to support effective context engineering.
+
+Maintain framework independence and configurability to support future adaptability.
+
+Include security controls, privacy protection, audit logging, and appropriate access governance.
+
+Explain the rationale for the chosen design, including alternatives considered and trade-offs made.
+
+TESTING AND QUALITY ASSURANCE
+
+Develop test scenarios that cover key use-case conditions, edge cases, and expected user journeys.
+
+Use complete and varied test data to validate robustness, accuracy, and reliability.
+
+Automate testing where appropriate to enable continuous quality validation.
+
+DEMO READINESS
+
+Prepare demo scenarios that clearly showcase solution capabilities using adequate, high-quality input data.
+
+Explain design options considered, the selected approach, and the rationale behind key choices.
+
+Be ready to walk through the code, execution flow, and clean-code practices used in the solution.
+
+Demonstrate readiness to handle dynamic data inputs and realistic user interactions.
+
+Show how Al or GenAl materially improves the solution compared with a conventional approach.
+
+Ensure all team members can explain the full solution flow and answer design-related questions.
+
+Be prepared to explain the end-to-end approach: problem breakdown, solution design, data preparation, Al specifications, prompts, and any Al-assisted code generation.
+
