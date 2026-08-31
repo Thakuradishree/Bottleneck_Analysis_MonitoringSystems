@@ -1,0 +1,93 @@
+{
+    'success': True,
+    'message': 'Load test completed successfully.',
+    'output_file': 'generated\\results.json',
+    'execution_time': 124.81,
+    'stdout': """
+         /\\      Grafana   /‾‾/
+    /\\  /  \\     |\\  __   /  /
+   /  \\/    \\    | |/ /  /   ‾‾\\
+  /          \\   |   (  |  (‾)  |
+ / __________ \\  |_|\\_\\  \\_____/
+
+
+     execution: local
+        script: generated\\generated_script.js
+        output: json (generated\\results.json)
+
+     scenarios: (100.00%) 1 scenario, 300 max VUs, 2m30s max duration
+              * default: Up to 300 looping VUs for 2m0s over 3 stages
+                (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (0m01.0s), 010/300 VUs, 0 complete and 0 interrupted iterations
+default   [   1% ] 010/300 VUs  0m01.0s/2m00.0s
+
+running (0m02.0s), 020/300 VUs, 0 complete and 0 interrupted iterations
+default   [   2% ] 020/300 VUs  0m02.0s/2m00.0s
+
+running (0m10.0s), 100/300 VUs, 67 complete and 0 interrupted iterations
+default   [   8% ] 100/300 VUs  0m10.0s/2m00.0s
+
+running (0m20.0s), 200/300 VUs, 335 complete and 0 interrupted iterations
+default   [  17% ] 200/300 VUs  0m20.0s/2m00.0s
+
+running (0m30.0s), 300/300 VUs, 811 complete and 0 interrupted iterations
+default   [  25% ] 300/300 VUs  0m30.0s/2m00.0s
+
+running (0m40.0s), 300/300 VUs, 1431 complete and 0 interrupted iterations
+default   [  33% ] 300/300 VUs  0m40.0s/2m00.0s
+
+running (0m50.0s), 300/300 VUs, 2050 complete and 0 interrupted iterations
+default   [  42% ] 300/300 VUs  0m50.0s/2m00.0s
+
+running (1m00.0s), 300/300 VUs, 2681 complete and 0 interrupted iterations
+default   [  50% ] 300/300 VUs  1m00.0s/2m00.0s
+
+running (1m10.0s), 300/300 VUs, 3321 complete and 0 interrupted iterations
+default   [  58% ] 300/300 VUs  1m10.0s/2m00.0s
+
+running (1m20.0s), 300/300 VUs, 300/300 VUs, 3950 complete and 0 interrupted iterations
+default   [  67% ] 300/300 VUs  1m20.0s/2m00.0s
+
+running (1m30.0s), 300/300 VUs, 4573 complete and 0 interrupted iterations
+default   [  75% ] 300/300 VUs  1m30.0s/2m00.0s
+
+running (1m40.0s), 230/300 VUs, 5164 complete and 0 interrupted iterations
+default   [  83% ] 230/300 VUs  1m40.0s/2m00.0s
+
+running (1m50.0s), 127/300 VUs, 5579 complete and 0 interrupted iterations
+default   [  92% ] 127/300 VUs  1m50.0s/2m00.0s
+
+running (1m59.0s), 038/300 VUs, 5775 complete and 0 interrupted iterations
+default   [  99% ] 038/300 VUs  1m59.0s/2m00.0s
+
+
+     ✓ status was 200
+     ✓ response time is less than 500ms
+
+     checks.........................: 100.00% ✓ 55618     ✗ 0
+     checks_succeeded..............: 100.00% 55618
+     checks_failed.................: 0.00%   0
+
+     HTTP
+     http_req_duration.............: avg=142.35ms min=18ms med=118ms max=812ms p(90)=278ms p(95)=421ms
+       { expected_response:true }..: avg=142.35ms min=18ms med=118ms max=812ms p(90)=278ms p(95)=421ms
+     http_req_failed...............: 0.00%   0 out of 27809
+     http_reqs.....................: 27809   224.096919/s
+
+     EXECUTION
+     iteration_duration............: avg=4.79s min=3.12s med=4.31s max=7.05s p(90)=6.42s p(95)=6.91s
+     iterations....................: 5813    46.843662/s
+     vus...........................: 1       min=1       max=300
+     vus_max.......................: 300     min=300     max=300
+
+     NETWORK
+     data_received.................: 48 MB   387 kB/s
+     data_sent.....................: 12 MB   96 kB/s
+
+
+running (2m04.1s), 000/300 VUs, 5813 complete and 0 interrupted iterations
+default ✓ [ 100% ] 000/300 VUs  2m0s
+"""
+}
